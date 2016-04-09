@@ -1,0 +1,233 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body{
+	font: 14px Arial, Tahoma, sans-serif;
+	color: white;
+	background-color: #323232; 
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+}
+
+h2{
+	font: 27px System, Arial;
+	font-weight: 300;
+	color: #FFF;
+}
+
+.container1{
+	padding-bottom: 20px;
+	padding-top: 45px;
+}
+
+.page_aling{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.activ{
+	margin-left: 62%;
+	color: #bfd90f;
+}
+
+.header{
+	font: 12px System, Arial;
+}
+
+.container2{
+	width: 1600;
+	height: 300px;
+	background-color: #252525;
+}
+
+.container2 h2{
+	padding: 10px 0px 10px 0px;
+}
+
+.descripBan li{
+	padding-bottom: 3px;
+}
+
+.button{
+	border: 2px solid #f7941f;
+	padding: 8px;
+	font: 16px System, Arial;
+	width: 55px;
+	margin-top: 20px;
+}
+
+.header li{
+	float: none;
+	display: inline;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #212121;
+}
+
+.picture1{
+	margin-top: -210px;
+	margin-left: 400px;
+	width: 575px;
+	height: 279px;
+	background-image: url(image\\pic1.jpg);
+	background-repeat: no-repeat;
+}
+
+.contBanner{
+	margin-top: -25px;
+	font: 14px System, Arial;
+	color: #777777;
+}
+
+.contBanner li{
+	font-weight: 600;
+	background-color: white;
+	float: left;
+	padding: 5px 10px 5px 10px;
+	border: 0.5px solid #777777;
+	text-align: center;
+}
+
+.container3{
+	background-color: #323232;
+	color: #cccccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.preview{
+	width: 350px;
+	float: left;
+}
+
+.preview h2{
+	color: #FFF !important;
+	margin-left: 64px;
+}
+
+.preview p{
+	margin-left: 64px;
+}
+
+.iconAster{
+	background: url(image\\3.jpg) no-repeat left center;
+	padding: 10px 0px 10px 0px;
+}
+
+.iconLam{
+	background: url(image\\4.jpg) no-repeat left center;
+	padding: 10px 0px 10px 0px;
+}
+
+.iconSched{
+	background: url(image\\5.jpg) no-repeat left center;
+	padding: 10px 0px 10px 0px;
+}
+
+.iconQuact{
+	background: url(image\\2.jpg) no-repeat left center;
+	padding: 10px 0px 10px 0px;
+}
+
+.iconSearch{
+	background: url(image\\1.jpg) no-repeat left center;
+	padding: 10px 0px 10px 0px;
+}
+
+#activeContBan{
+	background-color: #bfd90f !important;
+	margin-left: 120px;
+}
+
+.b5radiusleft{
+	border-radius: 5px 0px 0px 5px;
+}
+
+.b5radiusright{
+	border-radius: 0px 5px 5px 0px;
+}
+
+.list{
+	border-radius: 10px 10px 10px 10px;
+	box-sizing: border-box;
+    padding: 20px;
+	margin-left: 400px;
+	height: 580px;
+	width: 580px;
+	background-color: #252525;
+	overflow: auto;
+}
+
+.list h1{
+	color: #FFF;
+	font-size: 16pt;
+}
+
+.list h2{
+	color: #33cc32;
+	font-size: 14pt;
+	padding: 10px 0px 10px 0px;
+}
+
+.list ul
+{
+	padding: 10px 0px 10px 0px;
+	list-style-image: url(image\\arrow.png);
+}
+
+.list li{
+	margin-left: 60px;
+	color: #33cc32;
+}
+
+.logo{
+	margin-top: -50px;
+	height: 62px;
+	width: 280px;
+	background-image: url(image\\logo.jpg);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.clearFloat{
+	clear: both;
+}
+
+.container4{
+	width: 100%;
+	background-color: #252525;
+	color: #cccccc;
+}
+
+.ForumImg{
+	padding-top: 80px;
+	padding-left: 100px;
+	margin-left: 100px;
+	height: 141px;
+	width: 141px;
+	background: url(image\\ImgForum.png) no-repeat left center;
+	float: left;
+}
+
+.container4 h2{
+	padding: 20px 0px 10px 0px;
+	color: #33cc32;
+}
+
+.container4 ul{
+	color: #33cc32;
+	padding-top: 10px;
+	padding-left: 80px;
+	list-style-image: url(image\\list-style.png);
+	float: left;
+}
