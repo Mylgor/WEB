@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Auth";
+    Layout = null;
+}
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="../Content/PageAuthStyle.css" />
+    <title>Lab3</title>
+</head>
+<body>
+            @using (Html.BeginForm("Auth", "Auth", FormMethod.Post))
+            {
+                <div class="container">
+                    <h1>Авторизация</h1>
+                    <div class="b-login__popup">
+                        <h3>Логин:</h3>
+                        @Html.TextBox("Login", "", new { id = "login", Textmode = "text", @class = "input-container" })
+                        @Html.ValidationMessage("Email")
+                        <h3>Пароль:</h3>
+                        @Html.Password("Password", "", new { id = "password", Textmode = "passwrod", @class = "input-container" })
+                        @Html.ValidationMessage("Password")
+                        <button class="button" type="submit">Войти</button>
+                    </div>
+                </div>
+            }
+</body>
