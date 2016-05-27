@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.rectBlue{
+	height: 150px;
+	width: 250px;
+	background-color: blue;
+}
+
+.rectYellow{
+	height: 150px;
+	width: 250px;
+	background-color: yellow;
+}
+
+.rectGreen{
+	height: 150px;
+	width: 250px;
+	background-color: green;
+}
+
+.positionBlue{
+	margin: 100px;
+}
+
+.positionYellow{
+	margin: -150px 0px 0px 200px;
+}
+
+.positionGreen{
+	margin: -200px 0px 0px 150px;
+}

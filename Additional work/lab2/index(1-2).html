@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="window-1251">	
+		<script type="text/javascript" src="Scripts//work_1_and_2.js"></script>
+		<title>Lab2</title>
+	</head>
+	<body>
+		<p>
+			1.Поле для ввода (Только русские буквы):
+			<input type="text" id="test">
+		</p>
+		<p>
+			2.Создание таблицы
+			<p>
+				N:
+				<input type="number" id="nCount" value="10">
+				M:
+				<input type="number" id="mCount" value="10">
+			</p>
+			<p>
+				Ширина:
+				<input type="number" id="width" value="20">
+				Высота:
+				<input type="number" id="height" value="30">
+				<button id="create" onclick="createTable();">Создать</button>
+			</p>
+		</p>
+		
+		
+		
+		<script type="text/javascript">
+			setValidator('test', /^[а-яёА-ЯЁ-]*$/);
+		</script>
+	</body>
+</html>
